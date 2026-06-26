@@ -1,19 +1,109 @@
 :root{
     --primary-color: #002447;
+    --primary-font: 'Paytone One';
+    --secondary-font: Roboto;
+}
+
+section[id="presentacion"]{
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: left;
+    text-align-last:right;
+    text-indent: 4%;
+    letter-spacing: 4%;
+    word-spacing: 10%;
+    line-height: 1.5;
+    text-decoration: 1;
 
 }
 
 h1{
-    font-family: 'Roboto Slab';
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 50px;
+    text-align: center;
+    text-align-last:center;
+}
+
+
+h2{
+    font-family: var(--primary-font);
     color: var(--primary-color);
 }
 
-h2{
-    font-family: 'Roboto Slab';
-    color: var(--primary-color);
+h3{
+    font-family: var(--primary-font);
+    color: #4A5568;
 }
 
 p{
-    font-family: Roboto;
+    font-family: var(--secondary-font);
     color: black;
+}
+
+header{
+    text-align: center;
+    background-color: white;
+}
+
+nav{
+    font-family: var(--secondary-font);
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+a{
+    margin-left: 15px;
+}
+
+body{
+    background: linear-gradient(to bottom, #F7FAFC, #8ab6f0);  
+}
+
+ul{
+    font-family: var(--secondary-font);
+}
+
+table{
+    border:2px solid darkgrey;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+th{
+    background: #002447;
+    color: white;
+}
+
+td{
+    background: white;
+}
+
+p[id="destacada"]{
+    border: 5px solid var(--primary-color);
+    border-radius: 0px 20px 0px 20px;
+    width: 700px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: lightgray;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+aside{
+    border: 5px solid var(--primary-color);
+    border-radius: 20px 20px 20px 20px;
+    width: 300px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: lightgray;
+    margin: 10px auto;
+    overflow: auto;
 }
