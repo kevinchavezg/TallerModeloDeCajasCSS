@@ -61,7 +61,7 @@ a{
 }
 
 body{
-    background: linear-gradient(to bottom, #F7FAFC, #8ab6f0);  
+    background: linear-gradient(to bottom, white, #8ab6f0);  
 }
 
 ul{
@@ -88,7 +88,7 @@ p[id="destacada"]{
     border: 5px solid var(--primary-color);
     border-radius: 0px 20px 0px 20px;
     width: 700px;
-    height: 300px;
+    height: 400px;
     box-sizing: border-box;
     padding: 30px;
     background-color: lightgray;
